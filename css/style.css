@@ -1,1 +1,72 @@
 /* styles goes here */
+body {
+    background: #E38A69
+}
+
+.title {
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 180px;
+    line-height: 217px;
+    color: #3A3A3A;
+    text-shadow: 3px 3px 0px #FCFAF7;
+    text-align: center;
+}
+
+.line {
+    background: #3B3B3B;
+    width: 80px;
+    height: 4px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.secondtitle {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 47px;
+    color: #38353E;
+    text-align: center;
+}
+
+.list p {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+    color: #38353E;
+}
+
+.list li {
+    background: #FBFAF6;
+    border-radius: 0px 5px 5px 0px;
+    display: inline;
+    padding: 20px;
+    display: inline-flex;
+}
+
+.point {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: #959CA3;
+}
+
+li {
+    border: 20px solid transparent; 
+    border-right: 20px solid #FBFAF6;
+}
+
+li::before {
+    margin-left: -100px;
+    border: 30px solid transparent;
+    border-right: 43px solid #C4C4C4;
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+}
